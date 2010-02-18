@@ -59,7 +59,7 @@ is:
         html: "<span class='pc'>{{capital}}{{currency_short_name}}</span>"
     endorse: 
         name: "styðja"
-        ed: "stutt"
+        ed: "með"
         capitalize: "Styðja"
         plural: "styðja"
         people: "Stuðningsmenn"
@@ -70,7 +70,7 @@ is:
             title: "Fjarlægja af forgangslistanum mínum"
     oppose:
         name: "á móti"
-        ed: "andstæðingur"
+        ed: "á móti"
         capitalize: "Á móti"
         plural: "á móti"
         people: "Andstæðingar"
@@ -208,8 +208,8 @@ is:
             seen: "Sýnt {{seen_count}} af {{total_count}} meðlimum nú þegar<br/>{{user_name}} varði <span class='pc'>{{cost}}{{currency_short_name}}</span> eða <span class='pc'>{{per_user_cost}}{{currency_short_name}}</span> á meðlim"
             current_position: "Þessi auglýsing er í {{position}}. sæti.  Þú getur séð allar auglýsingar sem eru í gangi <a href='{{ads_url}}'>hér</a>."
             endorsed:
-                one: "1 studdi"
-                other: "{{count}} studdu"
+                one: "1 með"
+                other: "{{count}} með"
             opposed:
                 one: "1 á móti"
                 other: "{{count}} á móti"
@@ -353,8 +353,8 @@ is:
                         other: "{{count}} stuðningsmenn með <span class='pc'>{{capital}}{{currency_short_name}}</span>" 
                 opposers:
                     label:
-                        one: "1 andstæðingur með <span class='pc'>{{capital}}{{currency_short_name}}</span>" 
-                        other: "{{count}} andstæðingar með <span class='pc'>{{capital}}{{currency_short_name}}</span>" 
+                        one: "1 á móti með <span class='pc'>{{capital}}{{currency_short_name}}</span>" 
+                        other: "{{count}} á móti með <span class='pc'>{{capital}}{{currency_short_name}}</span>" 
             content:
                 label: "Útskýrður fyrir öðrum af hverju þeir ættu að kjósa með yfirtökunni:" 
                 note: "ATH! Ef 500 stafir duga ekki ættirðu að nota rök hins málsins til að lista atriði fyrir atriði af hverju það mál er gott. Þú ættir einungis að nota þennan reit til að verja yfirtökuna sjálfa." 
@@ -398,7 +398,7 @@ is:
             label: "fallandi/stígandi" 
         gainers_24hr: 
             title: "Mál þessara notenda hafa risið hraðast síðustu 24 tíma" 
-            intro: "Ímyndaðu þér að mál fólks séu verðbréfasöfn svipað og sameignarsjóður. Imagine each person's priorities are a portfolio of stocks like a mutual fund.  Þessi síða er uppfærð á miðnæti og sýnir það fólk hvurs mál risu mest í stigagjöfinni á síðustu 24 tímum." 
+            intro: "Ímyndaðu þér að mál fólks séu verðbréfasöfn svipað og sameignarsjóður.  Þessi síða er uppfærð á miðnæti og sýnir það fólk hvurs mál risu mest í stigagjöfinni á síðustu 24 tímum." 
         gainers_7days: 
             title: "Mál þessara notenda hafa risið hraðast í þessari viku" 
             intro: "Ýmindaðu þér að mál fólks séu verðbréfasöfn svipað og sameignarsjóður.  Þessi síða er uppfærð á miðnæti og sýnir það fólk hvurs mál risu mest í stigagjöfinni í þessari viku." 
@@ -507,7 +507,7 @@ is:
             submit: "Senda athugasemd"
         flag:
             confirm: "Er þessi athugasemd frá {{user_name}} persónuleg árás eða brot á reglum síðunnar?"
-            title: "Flagga þessa athugasemd til endurskoðunar"
+            title: "Tilkynna óviðeigandi ummæli!"
             number:
                 one: "1 flagg"
                 other: "{{count}} flögg"
@@ -1028,7 +1028,7 @@ is:
             position:
                 label: "Eru {{support_radio}} þessi rök til stuðnings eða {{oppose_radio}} á móti {{priority_name}}?"
             name:
-                label: "Taktu saman yfirlit yfir þín rök<span class='small'>60 characters</span>"
+                label: "Taktu saman yfirlit yfir þín rök <span class='small'>60 stafir</span>"
             other_priority_name:
                 label: "Tengdu þetta öðrum rökum <span class='small'>Byrjaðu bara að slá inn nafn</span>"
                 example: "Þú ræður hvort þú tengir við annað mál. Ef skoðun þín er andstæð, geturðu tengt við betra mál. EÐA, ef skoðun þín styður eða er hlutlaus, geturðu lagt áherslu á nákvæmara eða tengdara mál."
@@ -1178,8 +1178,8 @@ is:
             title: "{{number}} aðili/ar eru á móti {{priority_name}}"
             limit: "Sýni einungis 500 efstu andstæðingana"
             branch:
-                one: "1 {{branch_name}} er á móti"
-                other: "{{count}} andstæðingur/ar eru {{branch_name}}"            
+                one: "1 {{branch_name}} á móti"
+                other: "{{count}} á móti {{branch_name}}"            
         change:
             already_active: "Þú getur ekki breytt nafni máls eftir að einhver hefur stutt það."
             flagged: "{{priority_name}} var flaggað til endurskoðunar af {{admin_name}}"
@@ -1292,9 +1292,9 @@ is:
             other: "{{count}} endurskoðun/anir"
         title: "Endurskoðanir"
         user: "{{user_name}} endurskoðun"
-        byline: "eftir {{author_sentence}}"
+        byline: "{{author_sentence}}"
         revised: "endurskoðað {{time_ago}}"
-        added: "bætt við {{time_ago}}"
+        added: "{{time_ago}}."
         activity:
             name: "Virkni tengd þessari endurskoðun"
         word_count:
@@ -1407,13 +1407,13 @@ is:
         errors:
             header_message: "Það komu upp vandamál við að vista {{tags_name}}"
         show:
-            title: "{{tag_name}} mál"
-            empty: "Engin mál til staðar {{tag_name}}"
+            title: "{{tag_name}}"
+            empty: "Engin mál til staðar fyrir {{tag_name}}"
             gone: "{{tags_name}} er ekki til"
         yours:
-            title: "Þín {{tag_name}} mál"
+            title: "Þín {{tag_name}}"
         network:
-            title: "Mál {{tag_name}} þíns tengslanets"
+            title: "{{tag_name}} þíns tengslanets"
         obama:
             title: "mál {{official_user_name}} {{tag_name}}"
             intro: "Þetta er málefnaskrá {{official_user_name}} fyrir {{tag_name}} skv. forgangsröð meðlima"
@@ -1424,21 +1424,21 @@ is:
             title: "mál {{tag_name}} sem {{official_user_name}} er á móti"
             intro: "Þetta eru mál meðlima {{tag_name}} sem {{official_user_name}} er á móti"
         rising:
-            title: "Rísandi {{tag_name}} mál"
+            title: "Rísandi {{tag_name}}"
         falling:
-            title: "Fallandi {{tag_name}} mál"
+            title: "Fallandi {{tag_name}}"
         controversial:
-            title: "Umdeild {{tag_name}} mál"
+            title: "Umdeild {{tag_name}}"
         random:
-            title: "Slembin {{tag_name}} mál"
+            title: "Slembin {{tag_name}}"
         finished:
-            title: "Lokuð {{tag_name}} mál"
+            title: "Lokið {{tag_name}}"
         yours_finished:
-            title: "Þín lokuðu {{tag_name}} mál"
+            title: "Þín lokuðu {{tag_name}}"
         yours_created:
             title: "{{tag_name}} Mál sem þú stofnaðir"
         newest: 
-            title: "Ný {{tag_name}} mál"
+            title: "Ný {{tag_name}}"
         discussions:
             title: "Umræður um {{tag_name}}"
         documents:

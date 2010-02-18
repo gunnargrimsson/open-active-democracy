@@ -376,7 +376,7 @@ div.meta { width: 120px !important; }
 #point_1_quality{font-size: 11px !important;}
 .tag_button { font-size: 1em !important; }
 .container_12, .container_13 { position: relative; padding-bottom: 1em;}
-.container_12 td { width: 340px; vertical-align: top; }
+.container_12 td { width: 350px; vertical-align: top; }
 .container_13 td { width: 300px; vertical-align; top; }
 .container_12 td.against, .container_13 td.against { padding-left: 1em; }
 .container_12.newpoints { margin-top: 1em; }
@@ -389,7 +389,7 @@ div.meta { width: 120px !important; }
 
 /* cell width in rok plus oppose/endorse */
 .container_13 .grid_41 {
-width:260px !important;
+width:255px !important;
 }
 
  /* Below line for Rok */
@@ -678,4 +678,40 @@ text-align:center;
 width:700px !important;
 }
 
+#top_points_table p {
+	padding-bottom: 2px;
+	padding-top: 4px;
+	line-height: 130%;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size:11px;
+	color: #333333;
+}
+
+.tag_button_hack {
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size:11px !important;
+	font-style: italic;
+	color: #333333;
+}
+
+.point_item h3 {
+color: #333333 !important;	
+font-family:"lucida grande",tahoma,verdana,arial,sans-serif !important;
+font-size: 12px !important;
+font-weight: bold !important;
+}
+
+.point_item_hacky a {
+font-family:"lucida grande",tahoma,verdana,arial,sans-serif !important;
+color:#333333 !important;
+font-size: 12px !important;
+font-weight: bold !important;
+}
+
+.for_and_against_hacky {
+font-family:"lucida grande",tahoma,verdana,arial,sans-serif !important;
+color:#333333 !important;
+font-size: 10px !important;
+font-weight: normal !important;
+}
 
