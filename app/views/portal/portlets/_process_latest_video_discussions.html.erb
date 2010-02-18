@@ -8,6 +8,7 @@
 <div class="navi"></div>
 <!-- root element -->
 <a class="prev"></a>
+<a class="next"></a>
 <div class="scrollable_videos_large vertical">
     <div id="latest_video_discussion_thumbs">
 		<% @latest_speech_discussions.each do |process_discussion| %>
@@ -28,9 +29,7 @@
         <% end %>
     </div>
 </div>
-<p>
-</p>
-<a class="next"></a>
+
 <script type="text/javascript">
     jQuery.noConflict();
     jQuery(function(){
@@ -42,9 +41,9 @@
         });
     });
 </script>
-<table width="100%">
+<table>
     <tr align="left">
-        <td align="left" style="padding-left:45px;padding-top:7px;">
+        <td align="left">
             <% form_tag('/process_speech_videos/search') do -%>
             <b><%=label_tag t(:search_by_person) %></b>
             <%=text_field_tag 'search_query' %><%= submit_tag t(:search) -%>

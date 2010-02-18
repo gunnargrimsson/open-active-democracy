@@ -1083,8 +1083,6 @@ ul#menu, ul#priority_menu {
 }
 ul#menu li, ul#menu_sub li, ul#menu_third li, ul#priority_menu li { 
 	display: inline-block;
-	zoom: 1;
-	*display: inline !Important;
 	position: relative;
 	top: 0px;
 	left: 0px;

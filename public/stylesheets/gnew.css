@@ -13,3 +13,5 @@ background: red !important;
 }
 
 #branding p { position: absolute; left: 52px; top: 30px; font-size: 11px; color: #666; }
+#not_activated_header { color: #333; }
+.scrollable_videos_large { float: none !important; }
