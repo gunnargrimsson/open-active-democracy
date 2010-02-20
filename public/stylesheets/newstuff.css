@@ -309,7 +309,7 @@ ul#menu_third li.mega .tab_header a {
 
 /* priority nav */
 .action {
-	font-weight: bold;
+font-weight: normal !important;
 }
 ul#priority_menu li .tab_header a { 
 	padding: 3px 5px 3px 5px;
