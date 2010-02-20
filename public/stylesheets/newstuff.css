@@ -73,8 +73,8 @@ border: none 0px #fff !important;
 #content_text {
 	padding: 15px 0px 15px 0px;
 	letter-spacing: 0;
-	line-height: 1.4em;
-	font-size: 1.2em;
+	line-height: 1.2em !important;
+	font-size: 13px !Important;
 }
 
 #facebox {
@@ -110,18 +110,20 @@ ul#menu, ul#priority_menu {
 	height: 20px;
 }
 ul#priority_menu {
-	background-color: #f0f0f0;
+/*	background-color: #f0f0f0; */
 	text-align: left;
+	margin-bottom: 4px !important;
 }
 
 
 #priority_nav1 ul#priority_menu{
-	height: 24px !important; 
+	height: 20px !important; 
 }
 
 #priority_nav1 ul#priority_menu li{
-padding-top: 4px;
 }
+
+
 
 ul#menu li, ul#menu_sub li, ul#menu_third li, ul#priority_menu li { 
 	position: relative;
@@ -314,6 +316,9 @@ ul#priority_menu li .tab_header a {
 	margin-right: 0px; 
 	text-decoration: none;
 	font-size: 0.95em;
+		letter-spacing: normal !important;
+	font-weight: normal !important;
+
 }
 
 ul#priority_menu li.mega .tab_header a {
@@ -728,3 +733,13 @@ font-weight: normal !important;
 	margin-top: 10px;
 }
 
+ul#priority_menu li {
+padding:2px 0 !important;
+margin-right: 4px !Important;
+	background-color: #f0f0f0 !important;
+}
+
+.icon {
+float:left;
+padding-bottom:0px !important;
+}
