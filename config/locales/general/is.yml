@@ -783,18 +783,18 @@ is:
             title: "Hittu áhrifamesta fólkið hjá {{government_name}}"
             intro: "Einkunnagjöf yfir áhrif er byggð á upphæð {{currency_name}}<span class='pc'>{{currency_short_name}}</span> sem viðkomandi hefur unnið sér inn.<br/>Fáðu að vita meira um <span class='pc'>{{currency_short_name}}</span> í <a href='/about/faq#pc'>FAQ</a>."
         talkative: 
-            title: "Talar/skrifar mest hjá {{government_name}}"
+            title: "Skrifar mest hjá {{government_name}}"
         ambassadors:
             name: "Sendiherrar"
             title: "Sendiherrar hjá {{government_name}}"
             intro: "Sendiherrar eru einstaklingar sem safna liði fyrir {{government_name}}"
-            loggedin: "Þú getur líka orðið sendiherra og unnið þér inn <span class='pc'>5{{currency_short_name}}</span> fyrir hver einstakling sem þú nælir í. Byrjaðu með því einfaldlega að <a href='{{import_url}}'>flytja inn Google, Yahoo, Windows Live eða Facebook tengiliði þína</a>."
+            loggedin: "Þú getur líka orðið sendiherra og unnið þér inn <span class='pc'>5{{currency_short_name}}</span> fyrir hvern einstakling sem þú nælir í. Byrjaðu með því einfaldlega að <a href='{{import_url}}'>flytja inn Google, Yahoo, Windows Live eða Facebook tengiliði þína</a>."
         twitterers: 
             title: "Tístarar (Twitterers) hjá {{government_name}}"
             intro: "Ef þú vilt láta bæta þér við, smelltu þá á þennan hnapp og fylgdu Twitter upplýsingunum til að samþykkja {{government_name}}/Skuggaþing."
         newest: 
-            name: "Nýjir meðlimir"
-            title: "Nýjir meðlimir hjá {{government_name}}"
+            name: "Nýir meðlimir"
+            title: "Nýir meðlimir hjá {{government_name}}"
         partners: 
             title: "Hittu meðeigendur okkar"
         unverified:
@@ -1198,7 +1198,7 @@ is:
             blank: "Vinsamlegast skráðu málið þitt eða smelltu á stuðningshnappinn undir hverju forgangsmáli til að bæta þínu við."
             success: "Takk fyrir að bæta {{priority_name}} við"
             submit: "Búa til nýtt mál"
-            suggest: "Ertu með mál sem Alþingi ætti að taka fyrir? Settu það inn hér."
+            suggest: "Ertu með mál sem Alþingi ætti að taka fyrir? Settu það inn hér. Ekki gleyma að setja inn rök!"
             click:
                 one: "Smelltu á <span class='priority_add'>STYÐJA</span> ef þetta mál hér neðar styður enn ásetning þinn."
                 other: "Smelltu á <span class='priority_add'>ENDORSE</span> ef eitthvert þessara mála styður ásetning þinn."
