@@ -1061,8 +1061,8 @@ is:
             all_best_points_for_oppose: "Öll rök með Nei"
             all_newest_points_for_endorse: "Öll ný rök með Já"
             all_newest_points_for_oppose: "Öll ný rök með Nei"
-            add_point_for_endorse: "Setja inn rök með Já"
-            add_point_for_oppose: "Setja inn rök með Nei"
+            add_point_for_endorse: "Settu inn ný rök með Já"
+            add_point_for_oppose: "Settu inn ný rök með Nei"
             new_point_short: "Ný rök"
             all_best_points: "Öll bestu rök"
     priorities:
@@ -1259,6 +1259,7 @@ is:
                     short: "engin breyting í þessari viku"
         top_points:
             title: "Bestu rök"
+            title_long: "Bestu rök í máli: {{priority_name}}"
     prioritizer:
         index:
             title: "{{government_name}} röðun mála"

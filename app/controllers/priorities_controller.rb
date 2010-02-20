@@ -487,7 +487,7 @@ class PrioritiesController < ApplicationController
   end
 
   def top_points
-    @page_title = t('priorities.top_points.title', :priority_name => @priority.name) 
+    @page_title = t('priorities.top_points.title_long', :priority_name => @priority.name) 
     @point_value = 0 
     @points_top_up = @priority.points.published.by_helpfulness.up_value.five
     @points_top_down = @priority.points.published.by_helpfulness.down_value.five
