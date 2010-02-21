@@ -72,9 +72,9 @@ border: none 0px #fff !important;
 
 #content_text {
 	padding: 15px 0px 15px 0px;
-	letter-spacing: 0;
+/*	letter-spacing: 0; */
 	line-height: 1.2em !important;
-	font-size: 13px !Important;
+	font-size: 12px !Important;
 }
 
 #facebox {
@@ -360,11 +360,22 @@ ul#priority_menu li.tab9 div.tab_body {
 
 /* Þingferlar */
 .althingi_process_container {  width: 550px; margin: 1em 0em !important; padding: 0.5em 0em !important; border-bottom: 3px solid #e5e5e5 !important; }
+
 .althingi_process_container h3 { background: #f5f5f5 !important; margin: 0px; margin-top: 1em; }
+
 .althingi_process_container h2 { display: inline !important; width: 200px !important; clear: left !important; padding: 0.5em; padding-top: 0em; margin: 0px; }
+
 .althingi_process_container p { display: inline; }
+
 .althingi_process_container a.extlink { display: inline-block; float: right; padding: 0.5em; padding-bottom: 0px; margin-bottom: 0px; }
+
+.althingi_process_container a
+{
+border-bottom: 1px dotted #997777;	
+}
+
 .althingi_process_container table { width: 550px !important; border: 1px solid #f5f5f5; border-collapse: separate !important; border-spacing: 0 !important; }
+
 .althingi_process_container table tr.even td { background: #f5f5f5; }
 
 /* Hliðarstikan */
@@ -447,7 +458,7 @@ line-height:2em !important;
 .point_content_detail p
 {
 font-size: 12px;
-line-height: 100% !important;
+line-height: 120% !important;
 }
 
 .point_item p a
@@ -749,4 +760,35 @@ margin-right: 4px !Important;
 .icon {
 float:left;
 padding-bottom:0px !important;
+}
+
+.point_name {
+font-size:14px !important;
+}
+
+.profile_name {
+font-size:16px !important;
+}
+
+#addthis a{
+font-size: 13px !important;
+}
+
+.priority_name, .priority_name_add {
+float:left;
+margin-right:7px;
+margin-top:3px;
+}
+
+
+#footer a {
+  border-bottom-color:#997777;
+  border-bottom-style:dotted;
+  border-bottom-width:1px;
+  color:#553333;
+}
+
+
+.pagination {
+	margin-top: 3px;
 }
