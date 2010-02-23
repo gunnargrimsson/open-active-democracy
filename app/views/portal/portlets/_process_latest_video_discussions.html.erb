@@ -30,6 +30,10 @@
     </div>
 </div>
 
+<p>
+</p>
+<a class="next"></a>
+
 <script type="text/javascript">
     jQuery.noConflict();
     jQuery(function(){
@@ -41,9 +45,9 @@
         });
     });
 </script>
-<table>
+<table width="100%">
     <tr align="left">
-        <td align="left">
+        <td align="left" style="padding-left:45px;padding-top:7px;">
             <% form_tag('/process_speech_videos/search') do -%>
             <b><%=label_tag t(:search_by_person) %></b>
             <%=text_field_tag 'search_query' %><%= submit_tag t(:search) -%>
