@@ -234,7 +234,7 @@ is:
         empty:
             user: "{{user_name}} hefur ekki keypt auglýsingu."
         shown_to: "Sýnd"
-        your_message: "Settu skilaboðin þín hér"
+        your_message: "Settu inn auglýsingu"
         current: "Er að sýna auglýsingar"
         past: "Eldri auglýsingar"
         yours:
