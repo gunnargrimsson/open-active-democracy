@@ -383,7 +383,7 @@ is:
             confirm: "Með þessu eyðirðu tillögunni, endurgreiðir {{currency_name}} og heldur ekki kosningu." 
         voting_underway: "Kosning í gangi!  {{time_left}} eftir af <a href='{{vote_url}}'>kosningu</a>." 
         status:
-            not_started: "Kosning er ekki byrjuð" 
+            not_started: "Kosning er ekki hafin" 
             no_vote: "Engin kosning verður haldin" 
             approved: "Kosningu er lokið og <span class='endorsed'><a href='{{proposal_url}}'>tillagan var samþykkt</a></span>" 
             declined: "Kosningu er lokið og <span class='opposed'><a href='{{proposal_url}}'>tillagan var felld</a></span>"  
