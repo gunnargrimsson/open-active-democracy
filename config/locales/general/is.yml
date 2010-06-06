@@ -152,8 +152,8 @@ is:
             one: "1 aðila fannst þetta ógagnlegt"
             other: "{{count}} finnst þetta ógagnlegt"
         both: 
-            one: "1 fannst þetta ógagnlegt, {{other_count}} fannst það ekki."
-            other: "{{count}} fannst þetta ógagnlegt, {{other_count}} fannst það ekki."      
+            one: "1 fannst þetta gagnlegt, {{other_count}} fannst það ekki."
+            other: "{{count}} fannst þetta gagnlegt, {{other_count}} fannst það ekki."      
         endorsers:
             first:
                 one: "1 meðmæltum fannst þetta ógagnlegt"
@@ -166,8 +166,8 @@ is:
                 one: "1 andstæðingi fannst þetta ógagnlegt"
                 other: "{{count}} andstæðingum finnst þetta ógagnlegt"
             both: 
-                one: "1 andstæðingi fannst þetta ógagnlegt, {{other_count}} fannst það ekki."
-                other: "{{count}} andstæðingum fannst þetta ógagnlegt, {{other_count}} fannst það ekki."   
+                one: "1 andstæðingi fannst þetta gagnlegt, {{other_count}} fannst það ekki."
+                other: "{{count}} andstæðingum fannst þetta gagnlegt, {{other_count}} fannst það ekki."   
         undeclared:
             first:
                 one: "1 óákveðnum fannst þetta ógagnlegt"
